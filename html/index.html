@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>ASHLEY</title>
+  </head>
+  <body>
+    <h5>Hi, I'm Ashley</h5>
+    <h5>Here are some of my favourite movies:</h5>
+    <main class="my-movies">
+      <div class="movie-list">
+        <div class="movie-item">
+          <div class="movie-info">
+            <div class="movie-rank">1</div>
+            <div class="movie-name">
+              <a href="https://movie.naver.com/movie/bi/mi/basic.naver?code=119632" target="_blank">
+                Whiplash
+              </a>
+            </div>
+            <div class="movie-summary">
+              A promising young drummer enrolls at a cut-throat music conservatory where his dreams
+              of greatness are mentored by an instructor who will stop at nothing to realize a
+              student's potential.
+            </div>
+          </div>
+          <div class="movie-image">
+            <img src="../images/movie_whiplash.jpg" alt="Whiplash movie poster" />
+          </div>
+        </div>
+        <div class="movie-item">
+          <div class="movie-info">
+            <div class="movie-rank">2</div>
+            <div class="movie-name">
+              <a href="https://movie.naver.com/movie/bi/mi/basic.naver?code=74610" target="_blank">
+                Midnight in Paris
+              </a>
+            </div>
+            <div class="movie-summary">
+              While on a trip to Paris with his fiancée's family, a nostalgic screenwriter finds
+              himself mysteriously going back to the 1920s every day at midnight.
+            </div>
+          </div>
+          <div class="movie-image">
+            <img src="../images/movie_midnight-in-paris.jpg" alt="Midnight in Paris movie poster" />
+          </div>
+        </div>
+        <div class="movie-item">
+          <div class="movie-info">
+            <div class="movie-rank">3</div>
+            <div class="movie-name">
+              <a href="https://movie.naver.com/movie/bi/mi/basic.naver?code=92075" target="_blank">
+                About Time
+              </a>
+            </div>
+            <div class="movie-summary">
+              At the age of 21, Tim discovers he can travel in time and change what happens and has
+              happened in his own life. His decision to make his world a better place by getting a
+              girlfriend turns out not to be as easy as you might think.
+            </div>
+          </div>
+          <div class="movie-image">
+            <img src="../images/movie_about-time.png" alt="About Time movie poster" />
+          </div>
+        </div>
+        <div class="movie-item">
+          <div class="movie-info">
+            <div class="movie-rank">4</div>
+            <div class="movie-name">
+              <a href="https://movie.naver.com/movie/bi/mi/basic.naver?code=68035" target="_blank">
+                Atonement
+              </a>
+            </div>
+            <div class="movie-summary">
+              Thirteen-year-old fledgling writer Briony Tallis irrevocably changes the course of
+              several lives when she accuses her older sister's lover of a crime he did not commit.
+            </div>
+          </div>
+          <div class="movie-image">
+            <img src="../images/movie_atonement.jpg" alt="Atonement movie poster" />
+          </div>
+        </div>
+        <div class="movie-item">
+          <div class="movie-info">
+            <div class="movie-rank">5</div>
+            <div class="movie-name">
+              <a href="https://movie.naver.com/movie/bi/mi/basic.naver?code=76048" target="_blank">
+                Perfect Game
+              </a>
+            </div>
+            <div class="movie-summary">
+              The Lotte Giants' Choi Dong-won and the Haitai Tigers' Seon Dong-ryeol are rival
+              pitchers in 1980s baseball. The film reenacts the legendary match of May 16, 1987,
+              which baseball fans today still recall as "the perfect match," when Choi and Sun
+              compete as pitchers for the last time.
+            </div>
+          </div>
+          <div class="movie-image">
+            <img src="../images/movie_perfect-game.jpg" alt="Midnight in Paris movie poster" />
+          </div>
+        </div>
+      </div>
+    </main>
+    <div class="visitor-log">
+      <h5>Hey, Visitor</h5>
+      <form>
+        <div>
+          <label for="name" id="label-name">Your name:</label>
+          <input type="text" id="name" name="name" required />
+        </div>
+        <fieldset>
+          <legend>Your movie preferences:</legend>
+          <div>
+            <input type="checkbox" name="movie" id="whiplash" value="whiplash" />
+            <label for="whiplash">Whiplash</label>
+          </div>
+          <div>
+            <input type="checkbox" name="movie" id="midnight-in-paris" value="midnight-in-paris" />
+            <label for="midnight-in-paris">Midnight in Paris</label>
+          </div>
+          <div>
+            <input type="checkbox" name="movie" id="about-time" value="about-time" />
+            <label for="midnight-in-paris">About Time</label>
+          </div>
+          <div>
+            <input type="checkbox" name="movie" id="attonement" value="attonement" />
+            <label for="attonement">Attonement</label>
+          </div>
+          <div>
+            <input type="checkbox" name="movie" id="perfect-game" value="perfect-game" />
+            <label for="perfect-game">Perfect Game</label>
+          </div>
+        </fieldset>
+        <div class="button-container">
+          <button id="visitor-button" type="submit">Add</button>
+          <button id="discard-button" type="button">Discard</button>
+        </div>
+      </form>
+      <div class="visitor-message"></div>
+    </div>
+    <script src="../js/index.js"></script>
+  </body>
+</html>
