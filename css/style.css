@@ -97,6 +97,11 @@ h5 {
   background-color: #fcfcfc;
 }
 
+#name::placeholder {
+  color: gray;
+  opacity: 1;
+}
+
 fieldset {
   border: none;
   margin-bottom: 20px;
